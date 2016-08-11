@@ -1,0 +1,10 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+        <!--CountDownView默认参数-->
+        <dimen name="ringThickness">10dp</dimen>
+        <dimen name="maxCircleRadio">50dp</dimen>
+        <dimen name="countTextSize">20sp</dimen>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.doing.countdowntimer.MainActivity">
+
+    <com.doing.countdowntimer.CountDownView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/countDownView"
+        app:seconds="120"
+        app:radius="50dp"
+        app:ring_thickness="10dp"
+        app:count_text_size="20sp"
+        app:ring_color="#0097a7"
+        app:count_text_color="#00838f"/>
+
+</LinearLayout>

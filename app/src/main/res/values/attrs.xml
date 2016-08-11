@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CountDownView">
+        <!--单位：dp / sp-->
+        <!--倒计时秒数-->
+        <attr name="seconds" format="integer" />
+        <!--CountDownView半径-->
+        <attr name="radius" format="dimension"/>
+        <!--倒计时环的厚度-->
+        <attr name="ring_thickness" format="dimension"/>
+        <!--倒计时环的颜色-->
+        <attr name="ring_color" format="color"/>
+        <!--倒计时文字大小-->
+        <attr name="count_text_size" format="dimension"/>
+        <!--倒计时文字颜色）-->
+        <attr name="count_text_color" format="color"/>
+    </declare-styleable>
+</resources>
+
